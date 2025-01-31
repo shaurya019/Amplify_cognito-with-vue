@@ -8,7 +8,7 @@
 </script>
 
 <template>
-  <authenticator v-slot="{ user, signOut }">
+  <authenticator:initial-state="'signUp'" v-slot="{ user, signOut }">
       <h1>Hello {{ user.username }}!</h1>
       <button @click="signOut">Sign Out</button>
   </authenticator>
