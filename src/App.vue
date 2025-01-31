@@ -16,10 +16,10 @@
       <h1>Hello {{ user.username }}!</h1>
       <button @click="signOut">Sign Out</button>
     </template>
-      <template v-slot:sign-in-header>
+      <template v-slot:sign-up-header>
         <h3>Custom sign</h3>
       </template>
-      <template v-slot:sign-in-footer>
+      <template v-slot:sign-up-footer>
         <h3>Custom sign</h3>
       </template>
   </authenticator>
