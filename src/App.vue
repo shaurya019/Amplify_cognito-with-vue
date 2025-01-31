@@ -8,13 +8,20 @@
 </script>
 
 <template>
-  <authenticator 
+  <authenticator>
   <!-- :initial-state="'resetPassword'" -->
   <!-- :login-mechanisms="['phone_number']" -->
    <!-- :social-providers="['facebook','google']"  -->
-   v-slot="{ user, signOut }">
+   <template  v-slot="{ user, signOut }">
       <h1>Hello {{ user.username }}!</h1>
       <button @click="signOut">Sign Out</button>
+    </template>
+      <template v-slot:sign-in-header>
+        <h3>Custom sign</h3>
+      </template>
+      <template v-slot:sign-in-footer>
+        <h3>Custom sign</h3>
+      </template>
   </authenticator>
 </template>
 
