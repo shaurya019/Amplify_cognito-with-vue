@@ -1,0 +1,21 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-rethemproject-dev-d49d0-authRole",
+      "UnauthRoleArn": "arn:aws:iam::590184119441:role/amplify-rethemproject-dev-d49d0-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::590184119441:role/amplify-rethemproject-dev-d49d0-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-rethemproject-dev-d49d0-deployment",
+      "UnauthRoleName": "amplify-rethemproject-dev-d49d0-unauthRole",
+      "StackName": "amplify-rethemproject-dev-d49d0",
+      "StackId": "arn:aws:cloudformation:us-east-1:590184119441:stack/amplify-rethemproject-dev-d49d0/22ad9e60-dfab-11ef-9950-0afff9169823",
+      "AmplifyAppId": "d1n5tufx86eb60"
+    },
+    "categories": {
+      "auth": {
+        "rethemprojectd8da771c": {},
+        "userPoolGroups": {}
+      }
+    }
+  }
+}
